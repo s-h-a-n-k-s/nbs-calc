@@ -10,4 +10,8 @@ public class Calculator {
 		return numberOne * numberTwo;
 	}
 
+	public int divide(int numberOne, int numberTwo) {
+		return numberOne / numberTwo;
+	}
+
 }
