@@ -6,4 +6,8 @@ public class Calculator {
 		return numberOne + numberTwo;
 	}
 
+	public int multiply(int numberOne, int numberTwo) {
+		return numberOne * numberTwo;
+	}
+
 }
