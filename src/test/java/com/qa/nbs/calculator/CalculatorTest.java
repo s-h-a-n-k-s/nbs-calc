@@ -11,4 +11,12 @@ public class CalculatorTest {
 
 		Assert.assertEquals(4, result);
 	}
+
+	@Test
+	public void multiplyTwoNumbersTogetherTest() {
+		Calculator calculator = new Calculator();
+		int result = calculator.multiply(2, 2);
+
+		Assert.assertEquals(4, result);
+	}
 }
